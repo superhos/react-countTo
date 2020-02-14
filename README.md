@@ -13,7 +13,7 @@ Inspire by [Vue-countTo](https://github.com/PanJiaChen/vue-countTo).
 
 React-countTo is a easy component for counting to a target number at a specified duration.
 
-## [Try the demo](http://superhos.github.io/reactCountTo/demo/)
+## [Try the demo](http://blog.chenhaotaishuaile.com/react-countTo/demo/index.html)
 
 ### How to use?
 ```bash
