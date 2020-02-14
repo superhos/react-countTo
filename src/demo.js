@@ -57,8 +57,8 @@ export default class Demo extends React.Component {
                     className={'demo_2'}
                     ref={'counter2'}
                     decimals={2}
-                    prefix={'¥'}
-                    suffix={'RMB'}
+                    prefix={prefix}
+                    suffix={suffix}
                     startVal={startVal}
                     endVal={1990}
                     prefixStyle={{marginRight: 10}}
@@ -68,8 +68,8 @@ export default class Demo extends React.Component {
                 <div className={'control'}>
                     <label>startVal: <input value={startVal} onChange={(val) => this.setState({ startVal: +val.currentTarget.value})}/></label>
                     <label>endVal: <input value={endVal} onChange={(val) => this.setState({ endVal: +val.currentTarget.value})}/></label>
-                    <label>prefix: <input value={prefix} onChange={(val) => this.setState({ prefix: +val.currentTarget.value})}/></label>
-                    <label>suffix: <input value={suffix} onChange={(val) => this.setState({ suffix: +val.currentTarget.value})}/></label>
+                    <label>prefix: <input value={prefix} onChange={(val) => this.setState({ prefix: val.currentTarget.value})}/></label>
+                    <label>suffix: <input value={suffix} onChange={(val) => this.setState({ suffix: val.currentTarget.value})}/></label>
                     <div style={{marginTop: 20}}>
                         <button onClick={() => this.start('counter2')}>Start</button>
                         <button onClick={() => this.pause('counter2')}>Pause</button>
