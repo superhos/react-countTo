@@ -32,7 +32,7 @@ import { ReactCountTo } from '@sevenschan/react-count-to'
 |    Property    |    Description   |   type   |	default	|
 | -----------------  | ---------------- | :--------: | :----------: |
 | startVal       | the value you want to begin at |Number| 0 |
-| endVal         | the value you want to arrive at |Number | 2017 |
+| endVal         | the value you want to arrive at |Number | 2020 |
 | duration  | duration in millisecond | Number | 3000 |
 | autoplay     | when mounted autoplay | Boolean | true |
 | decimals     | the number of decimal places to show | Number | 0 |
