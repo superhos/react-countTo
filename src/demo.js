@@ -60,7 +60,7 @@ export default class Demo extends React.Component {
                     prefix={prefix}
                     suffix={suffix}
                     startVal={startVal}
-                    endVal={1990}
+                    endVal={endVal}
                     prefixStyle={{marginRight: 10}}
                     suffixStyle={{marginLeft: 10}}
                     useEasing={false}
