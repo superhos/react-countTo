@@ -56,6 +56,7 @@ import { ReactCountTo } from '@sevenschan/react-count-to'
 |    pause   |  pause  the countTo |
 |    resume    |  resume to countTo |
 |    stop    |  stop the countTo |
+|    reset    |  reset the countTo |
 
 ### Events
 | Event Name | Description   |

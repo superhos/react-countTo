@@ -45,7 +45,7 @@ export default class Demo extends React.Component {
                     <button onClick={() => this.start('counter')}>Start</button>
                     <button onClick={() => this.pause('counter')}>Pause</button>
                     <button onClick={() => this.resume('counter')}>Resume</button>
-                    <button onClick={() => this.stop('counter')}>Stop</button>
+                    <button onClick={() => this.stop('counter')}>Stop / Reset</button>
                 </div>
                 <div className={'code'}>
                     {jsxToString(<ReactCountTo className={'demo_1'} ref={'counter'} startVal={1990} endVal={2020} duration={1000}/>)}
@@ -74,7 +74,7 @@ export default class Demo extends React.Component {
                         <button onClick={() => this.start('counter2')}>Start</button>
                         <button onClick={() => this.pause('counter2')}>Pause</button>
                         <button onClick={() => this.resume('counter2')}>Resume</button>
-                        <button onClick={() => this.stop('counter2')}>Stop</button>
+                        <button onClick={() => this.stop('counter2')}>Stop / Reset</button>
                     </div>
                 </div>
                 <div className={'code'}>

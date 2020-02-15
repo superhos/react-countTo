@@ -94,6 +94,13 @@ class ReactCountTo extends React.Component {
         })
     }
 
+    /**
+     * reset
+     */
+    reset() {
+        this.stop()
+    }
+
     process(timestamp) {
         const { startTime, duration, startVal, isCountDown, paused } = this.state
         const { endVal, onDone, useEasing, easingFunc } = this.props
