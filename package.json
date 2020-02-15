@@ -1,6 +1,6 @@
 {
   "name": "@sevenschan/react-count-to",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "It's a react component that will count to a target number at a specified duration",
   "main": "dist/react-count-to.js",
   "files": [
